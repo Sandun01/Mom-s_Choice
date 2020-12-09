@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Mom's Choice</title>
+
+<link rel="stylesheet" type="text/css" href="styles/Admin.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+<style>
+
+#theme1
+        {
+        background: url(pictures/admintheme1.jpg);
+        }
+
+.checked
+	{
+		color:rgba(255, 187, 0, 0.801);
+  }
+  
+</style>
+
+</head>
+
+<body>
+
+<!--Admin logo-->
+
+<div class="top1">
+<img src="pictures/56.png" width="350" height="150">
+
+<font class="top2">Administration</font>
+
+<img class="logo1" src="pictures/admin1.png" width="200" height="150">
+
+</div>
+
+<!--Admin logo Ends-->
+
+<hr>
+
+<!--Start of menue bar-->
+<!--Main Menue bar-->
+
+<div class="nav1">
+
+<ul class="nav2">
+<li class="list1"><a class="nav" href="AdminDashboard.html">Dashboard</a></li>
+
+<li class="list1"><div class="activeHome"><a class="nav" href="#">Add Items</a></div></li>
+
+<li class="list1"><a class="nav" href="AdminDisplay.php">Display Item Details</a></li>
+
+<li class="list1"><a class="nav" href="index.php">View Store</a></li>
+
+</ul>
+</div>
+
+<hr>
+
+<!--From begin--->
+<div class="row1">
+
+<div class="form1">
+    
+    <div class="form2">
+
+    <b><center><font size="10px">Add Item</font></center></b>
+
+  <form method="POST" action="AdminAddItem.php" enctype="multipart/form-data">
+    
+    <font size="6px">Item ID </font><i class="fas fa-passport fa-2x"></i>
+    <input type="text" name="id" required placeholder="id">
+
+    <font size="6px">Item Name </font><i class="fas fa-file-signature fa-2x"></i>
+    <input type="text" name="name" required placeholder="name">
+
+    <font size="6px">Item Price </font><i class="fas fa-dollar-sign fa-2x"></i></i>
+    <input type="text" name="price" required placeholder="price">
+
+    <font size="6px">Item Quantity </font><i class="far fa-arrow-alt-circle-down fa-2x"></i>
+    <input type="text" name="qty" required placeholder="quantity">
+    
+  <font size="6px">Item Description</font>
+  <input type="text" name="des" required placeholder="Description">
+   
+  
+  <b><center><font size="6px">Upload Item Image</font></center></b>
+  <input type="file" name="image" class="button1">
+    
+  <input type="submit" name="upload" value="Upload Details" class="button1">
+    
+  </form>
+
+</div>
+</div>
+
+</div>
+
+<!--Form ends--->
+<hr>
+
+<!--footer begin--->
+
+<footer id = "theme1">
+
+<div class="socialmedia">
+<a class="socialmedia1" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+
+<a class="socialmedia1" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+<a class="socialmedia1" href="https://twitter.com/login"><i class="fab fa-twitter-square fa-2x"></i></a>
+<a class="socialmedia1" href="https://www.google.com/intl/si/gmail/about/#"><i class="fab fa-google-plus-square fa-2x"></i></i></a>
+<a class="socialmedia1" href="https://www.whatsapp.com"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+</div>
+
+<ul class="nav3">
+
+  <li class="list2"><a class="nav" href="AdminDashboard.html">Dashboard</a></li>
+
+  <li class="list2"><div class="activeHome"><a class="nav" href="#">Add Items</a></div></li>
+                
+  <li class="list2"><a class="nav" href="AdminDisplay.html">Display Item Details</a></li>
+  
+  <li class="list2"><a class="nav" href="AdminDisplay.html">User Profiles</a></li>
+    
+  <li class="list2"><a class="nav" href="AdminDisplay.html">Purchase History</a></li>
+
+
+
+</ul>
+
+</footer>
+
+<!--footer End--->
+	
+</body>
+</html>

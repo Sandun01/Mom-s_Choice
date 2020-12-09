@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url;
+	background-size: cover;
+	background-position:center;
+	font-family:times new roman
+	
+}
+
+.login{
+	width:320px;
+	height:420px;
+	background: #fff;
+	color:#420342;
+	top:100%;
+	left:50%;
+	box-sizing:border-box;
+	padding:70px 30px;
+	border:4px solid #420342;
+}
+
+.avatar{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:250px;
+	left:700px;
+
+}
+
+.avatar1{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:250px;
+	left:700px;
+}
+
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:30px;
+	font-family:cursive;
+	
+}
+
+.login p{
+	
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size:20px;
+	
+}
+
+.login input{
+	width:100%;
+	margin-bottom:20px;
+	
+
+}
+
+.login input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #000;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#E83DE8;
+	font-size:16px;
+}
+
+.login input[type ="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#420342;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.login input[type ="submit"]:hover
+{
+	cursor:pointer;
+	background:#F28EF2;
+	color:#000;
+	
+}
+
+.login a{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color:rgb(185, 13, 13);
+}
+
+.login a:hover
+{
+	color:rgb(245, 0, 0);
+	
+}
+
+.image{
+background-image:url("pictures/baby5.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

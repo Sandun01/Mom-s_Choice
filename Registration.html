@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mom's Choice - Registration Page</title> 
+<meta name="viewpoint" content="width=device-width", initial-scale=1>
+<link rel="StyleSheet" href ="styles/register.css">
+
+<link rel="stylesheet" type="text/css" href="styles/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+<script src="js/register.js"></script>
+<style>
+#theme1
+	{
+	background: url(pictures/theme1.png);
+	}
+
+#footer1
+	{
+	background: url(pictures/theme2.jpg);
+	}
+
+	
+
+</style>
+
+</head>
+
+<body>
+<div id = "theme1">
+<img src="pictures/56.png" width="350" height="150">
+</div>
+<hr>
+
+<!Start of menue bar>
+<!Main Menue bar>
+<div class = "of">
+<div class="nav1">
+<ul class="nav2">
+<li class="list1"><a class="nav" href="index.php">HOME</a></li>
+<div class= "dropbox">
+<li class="list1"><a class="nav" href="accessories.php">ACCESSORIES</a></li>
+<li class="list1"><a class="nav" href="AboutUs.html">ABOUT US</a></li>
+<li class="list1"><a class="nav" href="contactus.html">CONTACT US</a></li>
+<li class="list1"><a class="nav" href="adminlogin.php">ADMINISTRATION</a></li>
+</ul>
+
+<!---Sub Menue(Cart,Profile and Search-bar)--->
+<div class="cart">
+
+<a class="cart1" href="cart.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
+
+</div>
+
+<div class="profile">
+
+<div class= "dropboxprof">
+
+<div class="profile1"><i class="fas fa-user-circle fa-2x"></i></div>
+
+<div class = "droplistprof">
+
+<a href="login.html">Sign In</a>
+<a href="registration.html">Sign Up</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class = "search-bar">
+
+<form action ="action.php" method = "Get">
+<input type="text" placeholder="Search for product..." name="search">
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+</div>
+
+</div>
+
+<!--end of Sub Menue(Cart,Profile and Search-bar)-->
+
+<!--end of menue bar-->
+
+</br>
+<div class = "b-image">
+<div class = "b-image1">
+
+<form  method="POST" action="register.php" class="inf" onsubmit = "checkPassword()">
+
+<h1>Create Your Own Account</h1>
+
+<table >
+
+
+<tr>
+	<td ><font ="10px">Name</font><td><input type="text" name="firstname" size="40" placeholder="First"required></td>
+	<td><input type="text" name="lastname" size="50" placeholder ="Last"required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>User Name</td>
+	<td><input type="text" name="username" size ="40" placeholder="username" required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Gender</td>
+	<td><input type="radio" name="radiomale">Male</td>
+	<td><input type="radio" name="radiofemale" >Female</td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Email</td>
+	<td><input type="email" name="email" placeholder="email" required></td>
+</tr>
+<tr></tr>
+
+<tr>
+	<td>Password</td>
+	<td><input type="password" id="pwd" name="password" required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Confirm Password</td>
+	<td><input type="password" id="cnfpwd" name="cnfrmpw" required></td>
+</tr>
+</table>
+<br/><br/><br/>
+
+<input type="checkbox" id="checkbox" checked >Agree to the terms and conditions
+<br><br>
+
+
+<center>
+<button type="submit" class="subbtn" id="subbtn" name="sub" >Sign Up</button>
+</center>
+
+
+</form>
+</div>
+</div>
+<!footer begin>
+
+<footer id = "footer1">
+
+<div class="socialmedia">
+<a class="socialmedia1" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+
+<a class="socialmedia1" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+<a class="socialmedia1" href="https://twitter.com/login"><i class="fab fa-twitter-square fa-2x"></i></a>
+<a class="socialmedia1" href="https://www.google.com/intl/si/gmail/about/#"><i class="fab fa-google-plus-square fa-2x"></i></i></a>
+<a class="socialmedia1" href="https://www.whatsapp.com"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+</div>
+
+<ul class="nav3">
+<li class="list2"><a class="nav" href="index.php">HOME</a></li>
+<li class="list2"><a class="nav" href="accessories.php">ACCESSORIES</a></li>
+<li class="list2"><a class="nav" href="AboutUs.html">ABOUT US</a></li>
+<li class="list2"><a class="nav" href="contactus.html">CONTACT US</a></li>
+<li class="list1"><a class="nav" href="adminlogin.php">ADMINISTRATION</a></li>
+</ul>
+
+</footer>
+
+<!footer End>
+</body>
+
+
+</html>
+
+

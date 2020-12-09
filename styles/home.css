@@ -1,0 +1,380 @@
+/* Home page*/
+
+/* Theme*/
+
+/* Ends theme*/
+
+/* nav bar*/
+.nav2
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.nav1
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #99448C;
+}
+
+/* nav bar Main Menue*/
+li.list1
+{
+float:left;
+}
+
+li a.nav
+{
+display:block;
+color:white;
+text-align:center;
+font-size:25px;
+padding:13px 16px;
+text-decoration: none;
+
+}
+
+.nav:hover
+{
+background-color:#F963E7;
+}
+
+.activeHome
+{
+background-color: #380F38;
+}
+
+
+/*drop down list*/
+
+.droplist
+{
+display: none;
+position: absolute;
+background-color:#f1f1f1;
+min-width: 200px;
+z-index: 1;
+font-size:25px;
+}
+
+.droplist a
+{
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.droplist a:hover
+{
+background-color: #F963E7;
+}
+
+.dropbox:hover .droplist
+{
+display: block;
+}
+
+/* end of drop down list*/
+
+/* header1*/
+h1
+{
+font-family: cursive;
+font-size: 40px;
+}
+/* end header1*/
+
+/*cart dropdown list*/
+.droplistprof
+{
+display: none;
+position: absolute;
+background-color:#f1f1f1;
+min-width: 50px;
+z-index: 1;
+font-size:25px;
+
+}
+
+.droplistprof a
+{
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.droplistprof a:hover
+{
+background-color: #F963E7;
+}
+
+.dropboxprof:hover .droplistprof
+{
+display: block;
+}
+
+/*end cart dropdown list*/
+
+/* nav bar profile*/
+.profile
+{
+float:right;
+padding: 6px 10px;
+margin-top: 1px;
+margin-right: 5px;
+}
+
+.profile .profile1:hover
+{
+background:#F766E8;
+}
+
+.profile1
+{
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+/* nav bar Cart*/
+.cart
+{
+float:right;
+padding: 6px 10px;
+margin-top: 1px;
+margin-right: 0px;
+}
+
+.cart .cart1:hover
+{
+background:#F766E8;
+}
+
+.cart1
+{
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+/* nav bar Search bar*/
+
+.nav1 .search-bar
+{
+float : right;
+}
+
+.nav1 input[type=text]
+{
+border-radius: 5px;
+padding: 8px 200px 10px 10px;
+margin-top: 10px;
+margin-right: 0px;
+font-size: 15px;
+border: none;
+}
+
+/* nav bar Search bar icon*/
+
+.nav1 .search-bar button
+{
+border-radius: 5px;
+float: right;
+color:white;
+padding: 8px 15px;
+margin-top: 10px;
+margin-right: 10px;
+background: #EE6EEA;
+font-size: 15px;
+border: none;
+cursor: pointer;
+}
+
+.nav1 .search-bar button:hover
+{
+background: #e5ff52;
+}
+/*end of menue*/
+/*slide show*/
+
+.slideshow
+{
+max-width: 1000px;
+position: relative;
+width: 100%;
+margin:auto;
+}
+
+.slideundertxt
+{
+color: #fff;
+font-size: 25px;
+padding: 8px 12px;
+position:absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+.slideshownumText
+{
+color: #fff;
+font-size: 20px;
+padding: 8px 12 px;
+position: absolute;
+top: 0;
+}
+
+.dot
+{
+height:15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+
+/*end slide show*/
+
+/*Shopping Cards begins*/
+
+*{
+box-sizing: border-box;
+}
+
+.Column1
+{
+ float: left;
+ width: 25%;
+ padding:0 10px;
+}
+
+.row1,.row2
+{
+margin:10px 80px;
+}
+
+.row1:after,.row2:after
+{
+content: "";
+display: table;
+clear: both;
+}
+
+.card1
+{
+box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+
+.card1:hover
+{
+background-color:rgb(145, 186, 233);
+}
+
+/*--------------------------*/
+
+a.cardbutton
+{
+background-color:rgb(43, 12, 78);
+border-radius: 25px;
+margin:0;
+padding:0;
+overflow: hidden;
+color:white;
+text-align:center;
+font-size:20px;
+padding: 10px 10px;
+text-decoration: none;
+}
+
+a.cardbutton1
+{
+background-color:rgb(43, 12, 78);
+border-radius: 25px;
+margin:0;
+padding:0;
+overflow: hidden;
+color:white;
+text-align:center;
+font-size:20px;
+padding: 10px 10px;
+text-decoration: none;
+}
+
+a.cardbutton:hover
+{
+background-color:rgb(255, 47, 20);
+}
+
+a.cardbutton1:hover
+{
+background-color:rgb(31, 155, 0);
+}
+
+
+/* end of shopping card*/
+
+/*footer begin*/
+
+/*social media icons*/
+
+.socialmedia1
+{
+float:left;
+padding: 6px 10px;
+margin-top: 1px;
+margin-left: 5px;
+
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+.socialmedia .socialmedia1:hover
+{
+background:#C5C3C5;
+}
+
+/*social media icons*/
+
+footer
+{
+color:white;
+width: 100%;
+background-color: #99448C;
+padding: 60px 0px;
+}
+
+/*menue*/
+.nav3
+{
+float: right;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li.list2
+{
+float:left;
+}
+
+/* End Home page*/
+

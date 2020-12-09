@@ -1,0 +1,96 @@
+/*Cart page*/
+.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width:300px;
+	margin:auto;
+	text-align:center;
+	font-family:arial;
+}
+
+.image{
+	padding-right:"400px";
+	float:right;
+}
+
+.table{
+	width:60%;
+	background-color:pink;
+}
+.price{
+	color:gray;
+	font-size:22px;
+}
+.card button{
+	border:none;
+	outline:0;
+	padding:12px;
+	color:white;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+	width:100%;
+	font-size:18px;
+}
+.card button:horver{
+	opacity:0.7;
+}
+
+.image{
+	float:left;
+}
+
+.dropdown{
+	float:left;
+	overflow:hien;
+}
+
+.dropdown .dropbtn{
+	font-size:16px;
+	border:none;
+	outline:none;
+	color:black;
+	padding:14px 16px;
+	background-color:ash;
+	font-family:inherit;
+	margin:0;
+}
+
+.dropbtn:hover {
+	background-color:red;
+}
+
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+.dropdown-content a{
+	float:none;
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	text-align:left;
+}
+
+.dropdown-content a:hover{
+	background-color:#ddd;
+}
+
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+.btn{
+	float:right;
+	margin-bottom:100px;
+}
+
+.paymentbtn
+{
+	text-decoration:none;
+}

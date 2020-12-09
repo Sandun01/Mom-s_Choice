@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mom's Choice - Registration Page</title> 
+<meta name="viewpoint" content="width=device-width", initial-scale=1>
+<link rel="StyleSheet" href ="styles/register.css">
+
+<script src="js/register.js">
+ 
+</script>
+
+<link rel="stylesheet" type="text/css" href="styles/home.css">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+</head>
+
+<body>
+<img src="pictures/56.png" width="350" height="150">
+
+<hr>
+
+<!--Start of menue bar-->
+<!--Main Menue bar-->
+
+<div class="nav1">
+<ul class="nav2">
+<li class="list1"><a class="nav" href="index.html">HOME</a></li>
+
+<div class= "dropbox">
+<li class="list1"><a class="nav" href="accessories.html">ACCESSORIES</a>
+
+<div class = "droplist">
+
+<a href="accessories 1.html">Toys</a>
+<a href="accessories 2.html">Shoes</a>
+<a href="accessories 3.html">Jewellery</a>
+<a href="accessories 4.html">Hats & Caps</a>
+
+</div>
+
+</li>
+
+</div>
+
+
+<li class="list1"><a class="nav" href="AboutUs.html">ABOUT US</a></li>
+<li class="list1"><a class="nav" href="contactus.html">CONTACT US</a></li>
+</ul>
+
+
+<!--Sub Menue(Cart,Profile and Search-bar)-->
+
+<div class="cart">
+
+<a class="cart1" href="cart.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
+
+</div>
+
+<div class="profile">
+
+<div class= "dropboxprof">
+
+<div class="profile1"><i class="fas fa-user-circle fa-2x"></i></div>
+
+<div class = "droplistprof">
+
+<a href="login.html">Sign In</a>
+<a href="#">Sign Up</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class = "search-bar">
+
+<form action ="action.php">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+</div>
+
+</div>
+
+<!--end of Sub Menue(Cart,Profile and Search-bar)-->
+
+<!--end of menue bar-->
+
+<br>
+
+<!--form begins-->
+<div class="inf1">
+<div class="inf">
+
+<form  method="post" onsubmit="checkPassword()">
+<table>
+<h1>Create Your Own Account</h1>
+
+<tr>
+	<td>Name<td><input type="text" name="firstname" placeholder="First"required></td>
+	<td><input type="text" name="lastname" size="25" placeholder ="Last"required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>User Name</td>
+	<td><input type="text" name="username" size="25" placeholder="username" required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Gender</td>
+	<td><input type="radio" name="radiomale">Male</td>
+	<td><input type="radio" name="radiofemale" >Female</td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Email</td>
+	<td><input type="email" name="email" placeholder="email" required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Phone number</td>
+	<td><input type="tel" name="number"placeholder="phonenumber" pattern="[0][0-9]{9}" required></td>
+</tr>
+
+<tr>
+	<td>Password</td>
+	<td><input type="password" id="pwd" name="password" required></td>
+</tr>
+<tr></tr>
+<tr>
+	<td>Confirm Password</td>
+	<td><input type="password" id="cnfpwd" name="cnfrmpw" required></td>
+</tr>
+</table>
+<br><br><br>
+
+<input type="checkbox" id="checkbox" required >Agree to the terms and conditions
+<br><br>
+
+
+<center>
+<button type="submit" class="subbtn" id="subbtn" >Sign Up</button>
+</center>
+
+
+</form>
+</div>
+</div>
+
+<!--form ends-->
+<!--footer begin-->
+
+<footer>
+
+<div class="socialmedia">
+<a class="socialmedia1" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+
+<a class="socialmedia1" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+<a class="socialmedia1" href="https://twitter.com/login"><i class="fab fa-twitter-square fa-2x"></i></a>
+<a class="socialmedia1" href="https://www.google.com/intl/si/gmail/about/#"><i class="fab fa-google-plus-square fa-2x"></i></i></a>
+<a class="socialmedia1" href="https://www.whatsapp.com"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+</div>
+
+<ul class="nav3">
+<li class="list1"><a class="nav" href="index.html">HOME</a></li>
+<li class="list1"><a class="nav" href="accessories.html">ACCESSORIES</a></li>
+<li class="list1"><a class="nav" href="AboutUs.html">ABOUT US</a></li>
+<li class="list1"><a class="nav" href="contactus.html">CONTACT US</a></li>
+</ul>
+
+</footer>
+
+<!--footer End-->
+	
+</body>
+
+</html>

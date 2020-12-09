@@ -1,0 +1,283 @@
+/*top of admin page*/
+
+.top1
+{
+    padding: 0px 0px;
+}
+
+.top2
+{
+    padding:0px 150px;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.logo1
+{
+ margin-left: 150px; 
+}
+
+/*End top of admin page*/
+
+/*vertical nav bar*/
+/* nav bar*/
+.nav1
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #99448C;
+}
+
+.nav2
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+
+/* nav bar Main Menue*/
+li.list1
+{
+float:left;
+}
+
+li a.nav
+{
+display:block;
+color:white;
+text-align:center;
+font-size:25px;
+padding:13px 16px;
+text-decoration: none;
+
+}
+
+.nav:hover
+{
+background-color:#F963E7;
+}
+
+.activeHome
+{
+background-color: #380F38;
+}
+
+
+/*end of vertical nav bar*/
+
+/*Dashboard*/
+
+/*Cards*/
+    *{
+    box-sizing: border-box;
+    }
+    
+    .Column1
+    {
+     float: left;
+     width: 50%;
+     padding:0 10px;
+    }
+    
+    .row1,.row2
+    {
+    margin:10px 80px;
+    }
+    
+    .row1:after,.row2:after
+    {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    .card1
+    {
+    border-radius: 25px;
+    box-shadow:0 4px 8px 0 rgba(136, 133, 133, 0.89);
+    padding: 16px;
+    text-align: center;
+    background-color:rgb(48, 252, 126);
+    }
+    
+    .card1:hover
+    {
+    background-color:rgb(207, 224, 110);
+    }
+/*Cards*/
+
+/*Content :bars*/
+.bar1
+{
+width: 90%;
+background-color: #ddd;
+}
+
+.rateBar
+{
+text-align: right;
+padding-top: 5px;
+padding-bottom: 5px;
+color: #ffffff;
+}
+
+.toys{width: 60%; background-color: rgb(255, 2, 2); }
+.jewllery{width: 20%; background-color: rgb(49, 116, 35); }
+.cloths{width: 70%; background-color: rgb(19, 26, 122); }
+.other{width: 30%; background-color: rgb(146, 0, 243); }
+
+.Rtoys{width: 60%; background-color: rgb(0, 17, 255); }
+.Rjewllery{width: 45%; background-color:rgb(0, 17, 255); }
+.Rcloths{width: 85%; background-color: rgb(0, 17, 255); }
+.Rother{width: 35%; background-color: rgb(0, 17, 255); }
+
+.toys1{width: 80%; background-color: rgb(190, 6, 6); }
+.jewllery1{width: 70%; background-color: rgb(190, 6, 6); }
+.cloths1{width: 65%; background-color: rgb(190, 6, 6); }
+.other1{width: 90%; background-color: rgb(190, 6, 6); }
+
+.Otoys{width: 50%; background-color: rgb(0, 129, 39); }
+.Ojewllery{width: 35%; background-color:rgb(0, 129, 39); }
+.Ocloths{width: 45%; background-color: rgb(0, 129, 39); }
+.Other{width: 60%; background-color: rgb(0, 129, 39); }
+
+
+.text1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 30px;
+}
+
+h3
+{
+    font-family: sans-serif;
+    color: #000000;
+    text-align: left;
+
+}
+
+/*Content :bars*/
+
+
+
+/*end of content:bars*/
+
+/*Dashboard ends*/
+
+/*footer begin*/
+
+/*social media icons*/
+
+.socialmedia1
+{
+float:left;
+padding: 6px 10px;
+margin-top: 1px;
+margin-left: 5px;
+
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+.socialmedia .socialmedia1:hover
+{
+background:#C5C3C5;
+}
+
+/*social media icons*/
+
+footer
+{
+color:white;
+width: 100%;
+background-color: #99448C;
+padding: 60px 0px;
+}
+
+/*menue*/
+.nav3
+{
+float: right;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li.list2
+{
+float:left;
+}
+
+/* End Admin Dashboard page*/
+
+/*Admin Add Item Page*/
+
+/*Admin Add Item Page form*/
+
+.form1
+{
+    font-family: cursive;
+    padding: 8px;
+    width:70%;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-bottom: 40px
+}
+
+.form2
+{
+margin-top: 25px;
+background-color:rgb(168, 221, 228);
+padding:5px 20px 15px 20px;
+border:1px solid rgb(106, 196, 248);
+border-radius: 20px;
+
+}
+
+.form1 input[type=text]
+{
+width: 100%;
+padding: 5px 10px 15px 15px;
+border:1px solid #AA5A9E;
+border-radius: 5px;
+font-size: 20px;
+}
+
+.button1
+{
+background-color: rgb(177, 21, 21);
+color: white;
+padding: 12px;
+margin: 10px 250px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+font-size: 20px;
+}
+
+
+.button1:hover
+{
+background-color: rgb(255, 143, 68);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.row1
+{
+    margin:10px 80px;
+}
+
+
+/*Admin Add Item Page form*/
+
+/*End of Admin Add Item Page*/

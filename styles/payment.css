@@ -1,0 +1,249 @@
+
+/* nav bar*/
+.nav2
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.nav1
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #99448C;
+}
+
+/* nav bar Main Menue*/
+
+li.list1
+{
+float:left;
+}
+
+li a.nav
+{
+display:block;
+color:white;
+text-align:center;
+font-size:25px;
+padding:13px 16px;
+text-decoration: none;
+
+}
+
+.nav:hover
+{
+background-color:#D3CFCE;
+}
+
+.activeHome
+{
+background-color: #380F38;
+}
+
+/* nav bar profile*/
+.profile
+{
+float:right;
+padding: 6px 10px;
+margin-top: 1px;
+margin-right: 5px;
+}
+
+.profile .profile1:hover
+{
+background:#F766E8;
+}
+
+.profile1
+{
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+/* nav bar Cart*/
+.cart
+{
+float:right;
+padding: 6px 10px;
+margin-top: 1px;
+margin-right: 0px;
+}
+
+.cart .cart1:hover
+{
+background:#F766E8;
+}
+
+.cart1
+{
+display:block;
+color: white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+/* nav bar Search bar*/
+
+.nav1 .search-bar
+{
+float : right;
+}
+
+.nav1 input[type=text]
+{
+padding: 6px;
+margin-top: 10px;
+margin-right: 0px;
+font-size: 15px;
+border: none;
+}
+
+/* nav bar Search bar icon*/
+
+.nav1 .search-bar button
+{
+float:right;
+color:white;
+padding: 6px 15px;
+margin-top: 10px;
+margin-right: 10px;
+background: #EE6EEA;
+font-size: 15px;
+border: none;
+cursor: pointer;
+}
+
+.nav1 .search-bar button:hover
+{
+background: #691360;
+}
+
+/*end of menue*/
+
+/*Begin Payment*/
+
+.pay
+{
+font-family: Cursive;
+font-Size: 17px;
+padding: 8px;
+width: 100%;
+
+}
+
+*{
+box-sizing: border-box;
+}
+
+.row
+{
+display: flex;
+margin: 0 -16px;
+width: 100%;
+}
+
+.col2,.col1
+{
+padding:0 16px;
+align-content: 500px;
+width: 100%;
+}
+
+.payDetails
+{
+background-color:#FCE9F9;
+padding:5px 20px 15px 20px;
+border:1px solid #AA5A9E;
+border-radius: 3px;
+}
+
+.pay input[type=text]
+{
+width: 100%;
+padding: 5px 20px 15px 20px;
+border:1px solid #AA5A9E;
+border-radius: 3px;
+}
+
+.label
+{
+display: block;
+margin-bottom: 10px;
+}
+
+.paycards
+{
+margin-bottom: 25px;
+font-size:24px;
+padding: 7px 0;
+}
+
+.confirmPay
+{
+background-color: #45043B;
+color: white;
+padding: 12px;
+margin: 10px 0;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+font-size: 17px;
+}
+
+.confirmPay:hover
+{
+background-color:#FF50FF;
+}
+
+/*End Payment*/
+
+/*footer begin*/
+
+/*social media icons*/
+
+.socialmedia1
+{
+float:left;
+padding: 6px 10px;
+margin-top: 1px;
+margin-left: 5px;
+
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+.socialmedia .socialmedia1:hover
+{
+background:#C5C3C5;
+}
+
+/*social media icons*/
+
+footer
+{
+color:white;
+width: 100%;
+background-color: #99448C;
+padding: 60px 0px;
+}
+
+/*menue*/
+.nav3
+{
+float: right;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
